@@ -14,26 +14,14 @@ console.log(d1);
 var d2 = new Date(2025, 0, 20, 13, 6, 40);
 console.log(d2);
 
+
 // 객체 메서드
 console.log(
-  "년도: " +
-    d2.getFullYear() +
-    "\n" +
-    "월: " +
-    (d2.getMonth() + 1) +
-    "\n" +
-    "일: " +
-    d2.getDate() +
-    "\n" +
-    "시: " +
-    d2.getHours() +
-    "\n" +
-    "분: " +
-    d2.getMinutes() +
-    "\n" +
-    "초: " +
-    d2.getSeconds() +
-    "\n" +
-    "밀리초: " +
-    d2.getMilliseconds()
+    "년도: " + d2.getFullYear() + "\n" +
+    "월: " + (d2.getMonth() + 1) + "\n" +
+    "일: " + d2.getDate() + "\n" +
+    "시: " + d2.getHours() + "\n" +
+    "분: " + d2.getMinutes() + "\n" +
+    "초: " + d2.getSeconds() + "\n" +
+    "밀리초: " + d2.getMilliseconds()
 );

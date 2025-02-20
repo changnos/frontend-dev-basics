@@ -2,8 +2,10 @@
 Array 객체 함수: Array.prototype.*
 */
 
-var colors = ["black", "white", "yellow"];
-var fruits = ["apple", "mango", "banana"];
+var colors = ['black', 'white', 'yellow'];
+var fruits = ['apple', 'mango', 'banana'];
+
+
 
 console.log("============[02.01] concat");
 var a1 = fruits.concat(colors);
@@ -13,7 +15,7 @@ console.log("============[02.02] stack 지원");
 var color = colors.pop();
 console.log(color, colors);
 
-colors.push("red");
+colors.push('red');
 console.log(colors);
 
 console.log("============[02.03] join");
@@ -25,13 +27,14 @@ console.log(fruits);
 fruits.reverse();
 console.log(fruits);
 
+
 console.log("============[02.05] shift");
 var numbers1 = [1000, 2000, 3000, 4000, 5000];
 var number = numbers1.shift();
 console.log(number, numbers1);
 
 console.log("============[02.06] slice");
-var numbers2 = numbers1.slice(1, 3);
+var numbers2 = numbers1.slice(1, 3)
 console.log(numbers2);
 
 console.log("============[02.07] splice(index, count)");
